@@ -15,25 +15,47 @@ body {
   text-align: center;
   font-size: small;
   color: whitesmoke;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Verdana;
 }
 
 #foto {
   display: flex;
   padding: 10px;
   margin-top: 150px;
+  justify-content: center;
 }
 
 #minha_foto {
   width: 150px;
-}
-
-section {  
-  display: flex;
-  line-height: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 a {
   color: black;
   text-decoration: none;
 }
+
+.tudo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lado-direito {
+  width: 400px;
+  line-height: 20px;
+}
+.lado-esquerdo {
+  width: 600px;
+  justify-content: flex-start;
+}
+
+#listas {
+  display: flex;
+  flex-direction: row;
+}
+
+#rodape {
+  line-height: 20px;
+}
+
