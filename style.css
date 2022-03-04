@@ -5,7 +5,7 @@ body {
   border: 0;
 }
 
-header {
+#cabecalho{
   background-color: rgb(23, 111, 70);
   top: 0;
   height: 140px;
@@ -17,5 +17,7 @@ header {
 
 #minha_foto {
   width: 150px;
-  position: absolute;
+}
+#secao-listas{
+  display: flex;
 }
