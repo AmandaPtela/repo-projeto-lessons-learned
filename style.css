@@ -15,7 +15,7 @@ body {
   text-align: center;
   font-size: small;
   color: whitesmoke;
-  font-family: Verdana;
+  font-family: Verdana , Arial, Helvetica, sans-serif;
 }
 
 #foto {
@@ -45,6 +45,7 @@ a {
   width: 400px;
   line-height: 20px;
 }
+
 .lado-esquerdo {
   width: 600px;
   justify-content: flex-start;
@@ -58,4 +59,3 @@ a {
 #rodape {
   line-height: 20px;
 }
-
